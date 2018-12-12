@@ -1,4 +1,4 @@
-# XquisiteFramework
+# Xquisite Framework
 
 Xquisite Framework is a web based framework for develop beautiful and finely detailed websites.
 
