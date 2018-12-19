@@ -1,11 +1,11 @@
-/*  Xquisite Framework v 0.0.1
+/*  Xquisite Framework v 0.0.1.25
  *
  *  Author: Anirudh Sai Mergu
  *
  *  Github: https://github.com/AnirudhMergu/XquisiteFramework
  *
  *  Made with love by Anirudh Mergu <https://anirudhmergu.com> for internal purposes. */
-/*  Light Theme */
+/*  You are currently using Light Theme */
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -185,5 +185,7 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Grid Module */
 
 /*# sourceMappingURL=xquisite.css.map */
