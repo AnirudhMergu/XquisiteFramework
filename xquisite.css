@@ -134,40 +134,36 @@ template {
   display: none; }
 
 /* Grid Module */
-.columns {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-  margin-top: -0.75rem; }
-  .columns:last-child {
-    margin-bottom: -0.75rem; }
-  .columns:not(:last-child) {
-    margin-bottom: calc(1.5rem - 0.75rem); }
-  .columns .is-horizontal-centered {
-    justify-content: center; }
-  .columns .is-vertical-centered {
-    align-items: center; }
-  .columns .is-centered {
-    justify-content: center;
-    align-items: center; }
-  .columns .has-wrapped-content {
-    flex-wrap: wrap; }
-  .columns .has-no-gutter {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0; }
-    .columns .has-no-gutter > .column {
-      margin: 0;
-      padding: 0 !important; }
-    .columns .has-no-gutter:not(:last-child) {
-      margin-bottom: 1.5rem; }
-    .columns .has-no-gutter:last-child {
-      margin-bottom: 0; }
-  @media screen and (min-width: 769px), print {
-    .columns:not(.is-desktop) {
-      display: flex; } }
-  @media screen and (min-width: 1088px) {
-    .columns.is-desktop {
-      display: flex; } }
+.columns:last-child {
+  margin-bottom: -0.75rem; }
+.columns:not(:last-child) {
+  margin-bottom: calc(1.5rem - 0.75rem); }
+.columns .is-horizontal-centered {
+  justify-content: center; }
+.columns .is-vertical-centered {
+  align-items: center; }
+.columns .is-centered {
+  justify-content: center;
+  align-items: center; }
+.columns .has-wrapped-content {
+  flex-wrap: wrap; }
+.columns .has-no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0; }
+  .columns .has-no-gutter > .column {
+    margin: 0;
+    padding: 0 !important; }
+  .columns .has-no-gutter:not(:last-child) {
+    margin-bottom: 1.5rem; }
+  .columns .has-no-gutter:last-child {
+    margin-bottom: 0; }
+@media screen and (min-width: 769px), print {
+  .columns:not(.is-desktop) {
+    display: flex; } }
+@media screen and (min-width: 1088px) {
+  .columns.is-desktop {
+    display: flex; } }
 
 .column {
   display: block;
@@ -176,7 +172,8 @@ template {
   flex-grow: 1;
   padding: 0.75rem; }
   .columns.is-mobile > .column.is-narrow {
-    flex: none;
+    flex: none; }
+  .columns.is-mobile > .column.is-narrow {
     flex: none; }
   .columns.is-mobile > .column.is-full {
     flex: none;

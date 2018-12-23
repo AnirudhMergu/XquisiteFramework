@@ -3,15 +3,14 @@
 $column-gutter: 0.75rem !default
 
 .columns
-  margin:
-    left: (-$column-gutter)
-    right: (-$column-gutter)
-    top: (-$column-gutter)
+  // margin:
+  //   top: (-$column-gutter)
+  //   left: (-$column-gutter)
+  //   right: (-$column-gutter)
 
   // Adding margin-bottom to the last child.
   &:last-child
-    margin:
-      bottom: (-$column-gutter)
+    margin-bottom: (-$column-gutter)
   
   // Adding margin-bottom to remaining children.
   &:not(:last-child)
@@ -68,7 +67,7 @@ $column-gutter: 0.75rem !default
   // Nested columns
   .columns.is-mobile > &.is-narrow
     flex: none
-    .columns.is-mobile > &.is-narrow
+  .columns.is-mobile > &.is-narrow
     flex: none
   .columns.is-mobile > &.is-full
     flex: none
