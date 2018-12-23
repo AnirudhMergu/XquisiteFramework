@@ -1,11 +1,11 @@
 # Xquisite Framework
 
-[![Build Status](https://travis-ci.com/AnirudhMergu/XquisiteFramework.svg?branch=master)](https://travis-ci.com/AnirudhMergu/XquisiteFramework)
+[![Build Status](https://travis-ci.org/AnirudhMergu/XquisiteFramework.svg?branch=master)](https://travis-org.com/AnirudhMergu/XquisiteFramework)
 
 Xquisite Framework is a web based framework for develop beautiful and finely detailed websites.
 
-This framework is currently under development. Thank you for your patience.
+Good things come for those who can wait. This framework is currently under development. (Coming soon)
 
 Made with ❤ by Anirudh Mergu.
 
-&copy; 2018 Anirudh Sai Mergu. All Rights Reserved.
+&copy; 2018 Anirudh Sai Mergu. Code released under MIT License.
