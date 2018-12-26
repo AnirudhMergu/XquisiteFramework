@@ -60,6 +60,8 @@ $column-gutter: 0.75rem !default
     // Modifiers
     &.is-desktop
       display: flex
+
+//  ! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma
   
 .column
   display: block
@@ -69,8 +71,6 @@ $column-gutter: 0.75rem !default
   padding: $column-gutter
 
   // Nested columns
-  .columns.is-mobile > &.is-narrow
-    flex: none
   .columns.is-mobile > &.is-narrow
     flex: none
   .columns.is-mobile > &.is-full
@@ -127,6 +127,7 @@ $column-gutter: 0.75rem !default
       width: percentage($i / 12)
     .columns.is-mobile > &.is-offset-#{$i}
       margin-left: percentage($i / 12)
+  //  Mobile breakpoint
   +mobile
     &.is-narrow-mobile
       flex: none
@@ -184,6 +185,7 @@ $column-gutter: 0.75rem !default
         width: percentage($i / 12)
       &.is-offset-#{$i}-mobile
         margin-left: percentage($i / 12)
+  //  Tablet breakpoint
   +tablet
     &.is-narrow,
     &.is-narrow-tablet
@@ -263,6 +265,7 @@ $column-gutter: 0.75rem !default
       &.is-offset-#{$i},
       &.is-offset-#{$i}-tablet
         margin-left: percentage($i / 12)
+  //  Touch devices breakpoint
   +touch
     &.is-narrow-touch
       flex: none
@@ -320,6 +323,7 @@ $column-gutter: 0.75rem !default
         width: percentage($i / 12)
       &.is-offset-#{$i}-touch
         margin-left: percentage($i / 12)
+  //  Desktop devices breakpoint
   +desktop
     &.is-narrow-desktop
       flex: none
@@ -377,6 +381,7 @@ $column-gutter: 0.75rem !default
         width: percentage($i / 12)
       &.is-offset-#{$i}-desktop
         margin-left: percentage($i / 12)
+  //  Widescreen breakpoint
   +widescreen
     &.is-narrow-widescreen
       flex: none
@@ -434,6 +439,7 @@ $column-gutter: 0.75rem !default
         width: percentage($i / 12)
       &.is-offset-#{$i}-widescreen
         margin-left: percentage($i / 12)
+  //  Full HD breakpoint
   +fullhd
     &.is-narrow-fullhd
       flex: none

@@ -1,18 +1,11 @@
-/*  Xquisite Framework v 0.0.1.43
- *
- *
+/*  Xquisite Framework v 0.0.1.44
  *
  *  Author: Anirudh Sai Mergu
  *
- *
- *
  *  Github: https://github.com/AnirudhMergu/XquisiteFramework
- *
- *
  *
  *  Made with love by Anirudh Mergu <https://anirudhmergu.com> for internal purposes. */
 /*  You are currently using Light Theme */
-/* Responsive breakpoints */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -235,9 +228,6 @@ html {
   flex-shrink: 1;
   flex-grow: 1;
   padding: 0.75rem;
-}
-.columns.is-mobile > .column.is-narrow {
-  flex: none;
 }
 .columns.is-mobile > .column.is-narrow {
   flex: none;
