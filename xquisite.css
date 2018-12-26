@@ -1,4 +1,4 @@
-/*  Xquisite Framework v 0.0.1.44
+/*  Xquisite Framework v 0.0.1.48
  *
  *  Author: Anirudh Sai Mergu
  *
@@ -1759,6 +1759,18 @@ html {
 @media screen and (min-width: 1472px) {
   .columns.is-variable.is-8-fullhd {
     --columnGap: 2rem;
+  }
+}
+
+.section {
+  padding: 3rem 1.5rem;
+}
+@media screen and (min-width: 1088px) {
+  .section.is-medium {
+    padding: 9rem 1.5rem;
+  }
+  .section.is-large {
+    padding: 18rem 1.5rem;
   }
 }
 
