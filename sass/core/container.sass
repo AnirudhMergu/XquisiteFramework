@@ -1,0 +1,28 @@
+
+@import 'variables.sass'    
+    
+.container
+  margin: 0 auto
+  position: relative
+  +desktop
+    max-width: $desktop - (2 * $gutter)
+    width: $desktop - (2 * $gutter)
+    &.is-fluid
+      margin-left: $gutter
+      margin-right: $gutter
+      max-width: none
+      width: auto
+  +until-widescreen
+    &.is-widescreen
+      max-width: $widescreen - (2 * $gutter)
+      width: auto
+  +until-fullhd
+    &.is-fullhd
+      max-width: $fullhd - (2 * $gutter)
+      width: auto
+  +widescreen
+    max-width: $widescreen - (2 * $gutter)
+    width: $widescreen - (2 * $gutter)
+  +fullhd
+    max-width: $fullhd - (2 * $gutter)
+    width: $fullhd - (2 * $gutter)
