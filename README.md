@@ -8,6 +8,6 @@ Good things come for those who can wait. This framework is currently under devel
 
 Made with ❤ by Anirudh Mergu.
 
-&copy; 2018 Anirudh Sai Mergu. Code released under MIT License.
+&copy; 2019 Anirudh Sai Mergu. Code released under MIT License.
 
 Check out my website at www.anirudhmergu.com
