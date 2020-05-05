@@ -19,12 +19,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
-    - name: GitHub Script
-      uses: actions/github-script@0.9.0
+    - uses: actions/checkout@v1
+    - uses: borales/actions-yarn@v2.0.0
       with:
-        # The script to run
-        script: "test/sass-tester.sh"
+        cmd: install # will run `yarn install` command
+
+    - name: remote-bash
+      uses: shinhwagk/remote-bash@0.0.1
+      env:
+        REMOTE_BASH_URL: https://raw.githubusercontent.com/AnirudhMergu/XquisiteFramework/master/test/sass-tester.sh
       
